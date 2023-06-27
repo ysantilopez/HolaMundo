@@ -1,0 +1,31 @@
+body
+{
+    background: rgb(17, 17,37);
+    color: aliceblue;
+}
+
+.table, th, td
+{
+    border: 1px solid rgb(243, 242, 242);
+    width: 60rem;
+}
+
+.table td
+{
+    width: 2rem;
+}
+
+.table td:nth-child(3)
+{
+    width: 50rem;
+    background-color: beige;
+    color: black;
+}
+
+.form
+{
+    border-radius: 5rem;
+    border: 10px solid white;
+    margin: 2rem;
+    padding: 4rem;
+}
